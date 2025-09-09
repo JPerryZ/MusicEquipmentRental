@@ -1,6 +1,8 @@
-# Willow-Pine-Events
-A boutique event planning company
-# Willow & Pine Events Landing Page
+# Music Equipment Rental
+
+Backline and Studio Rental Support
+
+# Production Assistance Landing Page
 
 Simple, mobile-first marketing page built with HTML/CSS/JS. Deployed on Netlify with GitHub CI.
 
