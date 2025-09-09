@@ -1,5 +1,5 @@
 :root{
-  --sage:#20202e; --blush:#15352896; --ivory:#F8F7F2; --charcoal:#333333;
+  --grey:#20202e; --green:#15352896; --ivory:rgb(197, 212, 216); --charcoal:#333333;
   --container:1120px;
 }
 
@@ -15,6 +15,7 @@
 
 html,body{margin:0;padding:0}
 body, .main-text {
+  background-color:rgb(197, 212, 216);
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
@@ -36,18 +37,13 @@ h1,h2,h3{font-family:'Playfair Display',serif; line-height:1.2; margin:0 0 .5rem
   background:none; /* Remove direct background image */
 }
 
-.hero::before {
-  content:"";
-  position:absolute; inset:0;
-  background: url("assets/MusicEquipment.png") center/cover no-repeat;
-  opacity:0.5; /* Adjust for desired opacity */
-  z-index:0;
-}
 
-.hero__overlay{position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,.25), rgba(0,0,0,.45))}
+.hero__overlay{position:absolute; background-color:rgb(197, 212, 216)}
 .hero__content{position:relative; color:white; padding:2rem}
-.hero h1{font-style:italic;color: #333431; font-size:  5rem; margin-bottom:.5rem}
-.hero h2{font: size 1rem; margin-bottom:.5rem}
+.hero h1{font-style:italic;color: #8ebb34; font-size:  5rem; margin-bottom:.5rem; 
+  text-shadow: 2px 2px #20202e;}
+.hero h2{font: size 1rem; color:#286e70e9; text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 
+  0 0 20px #d4f321, 0 0 35px #d4f321, 0 0 40px #d4f321, 0 0 50px #d4f321, 0 0 75px #d4f321;}
 .hero p{max-width:680px; margin:0 auto 1rem}
 
 .section{padding:3rem 0}
@@ -65,8 +61,8 @@ details.services__all{margin-top:1rem}
 input,textarea{
   padding:.75rem; border-radius:8px; border:1px solid #ddd; background:#fff; font:inherit
 }
-.btn{display:inline-block; padding:.75rem 1.25rem; border-radius:999px; text-decoration:none; border:0; cursor:pointer}
-.btn--primary{background:var(--sage); color:white}
+.btn{display:inline-block; padding:.70rem 1.25rem; border-radius:999px; text-decoration:none;  text-shadow: 2px 2px #20202e; border:0; cursor:pointer}
+.btn--primary{background:var(--charcoal); color:rgb(238, 109, 16)}
 .btn--primary:hover{filter:brightness(.95)}
 
 .site-footer{padding:2rem 0; background:#fff}
